@@ -1,0 +1,26 @@
+.Task {
+  border: 1px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.active {
+	border: 3px solid blue;
+}
+
+.high {
+	background-color:rgba(255,0,0,0.3);
+	order: 1;
+}
+
+.medium {
+	background-color:rgba(255,255,0,0.3);
+	order: 2;
+}
+
+.low {
+	background-color:rgba(0,255,0,0.3);
+	order: 3;
+}

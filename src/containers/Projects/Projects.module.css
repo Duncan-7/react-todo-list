@@ -1,0 +1,20 @@
+.Projects {
+  padding-top: 8px;
+  flex: 0 0 200px;
+  height: 100vh;
+	background-color: darkred;
+	text-align: center;
+	display: inline-block;
+}
+
+.Project {
+  font-size: 18px;
+	font-weight: 600;
+	margin-top: 15px;
+	cursor: pointer;
+	display: block;
+}
+
+.active {
+  color: white;
+}
